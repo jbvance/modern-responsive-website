@@ -116,14 +116,19 @@ h3 {
     color: #fff;
 }
 
+
 /* ============================================================ 
                           ANIMATE
 ==============================================================*/
-#home-cover, #home-heading, #home-btn {
+
+#home-cover,
+#home-heading,
+#home-btn {
     animation-duration: .5s;
 }
+
 #home-cover {
-    animation-delay: .1s;    
+    animation-delay: .1s;
 }
 
 #home-heading {
@@ -138,6 +143,7 @@ h3 {
 /* ============================================================ 
                           CONTENT (Generic)
 ==============================================================*/
+
 .content-box {
     padding: 60px 0 60px 0;
 }
@@ -164,18 +170,19 @@ h3 {
 .service-item {
     padding: 20px 0 20px 0;
     margin-bottom: 20px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .service-item-icon i {
     color: #34c6d3;
-    float:left;
+    float: left;
     padding: 15px;
     margin-right: 25px;
     width: 75px;
     height: 75px;
-    text-align:center
+    text-align: center
 }
+
 .service-item:hover .service-item-icon i {
     color: #fff;
     background-color: #34c6d3
@@ -196,6 +203,16 @@ h3 {
 /*============================================================= 
                           ABOUT
 ==============================================================*/
+
+#about-bg-diagonal {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url(../img/bg-about.jpg);
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent;
+}
+
 #about-content-box {
     float: left;
     height: 700px;
@@ -216,7 +233,7 @@ h3 {
     text-align: left;
 }
 
-#about .content-title-underline{
+#about .content-title-underline {
     margin: 0 0 30px 0;
 }
 
